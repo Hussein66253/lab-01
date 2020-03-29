@@ -1,0 +1,80 @@
+@media  screen and (min-width: 480px ) and (max-width: 767px ){
+#a{
+        color: black;
+        font-size: 35px;
+    }
+#b {
+    color: black;
+    font-size: 35px;
+}
+#c {
+    color: black;
+    font-size: 35px;
+}
+#d{
+    color: black;
+    font-size: 35px;
+}
+#e {
+    color: black;
+    font-size: 35px;
+}
+#f{
+    color: black;
+    font-size: 35px;
+}
+#g {
+    color: black;
+    font-size: 35px;
+}
+#h{
+    color: black;
+    font-size: 35px;
+}
+#i{
+    color: black;
+    font-size: 35px;
+}
+
+
+}
+@media  screen and (min-width: 768px) and (max-width: 960px ) {
+    #a{
+            color: black;
+            font-size: 35px;
+        }
+    #b {
+        color: black;
+        font-size: 35px;
+    }
+    #c {
+        color: black;
+        font-size: 35px;
+    }
+    #d{
+        color: black;
+        font-size: 35px;
+    }
+    #e {
+        color: black;
+        font-size: 35px;
+    }
+    #f{
+        color: black;
+        font-size: 35px;
+    }
+    #g {
+        color: black;
+        font-size: 35px;
+    }
+    #h{
+        color: black;
+        font-size: 35px;
+    }
+    #i{
+        color: black;
+        font-size: 35px;
+    }
+    
+    
+    }
