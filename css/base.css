@@ -5,6 +5,7 @@
     background-color: rgb(200, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
   }
@@ -17,6 +18,7 @@
     background-color: rgb(210, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
   }
@@ -29,6 +31,7 @@
     background-color: rgb(220, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
 }
@@ -41,6 +44,7 @@
     background-color: rgb(230, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
 }
@@ -53,6 +57,8 @@
     background-color: rgb(240, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-right: none;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
     float: left;
@@ -66,6 +72,7 @@
     background-color: rgb(250, 238, 231);
     border-style: solid;
     border-width: thin;
+    border-bottom: none;
     text-align: center;
     padding: 55px;
     float: left;
@@ -77,12 +84,12 @@
 
 #G{
     clear: both;
-
     width: 50%;
     height: 250px;
     background-color: rgb(250, 200, 231);
     border-style: solid;
     border-width: thin;
+    border-right: none;
     text-align: center;
     padding: 55px;
     float: left;
@@ -109,6 +116,7 @@
     background-color: rgb(250, 190, 231);
     border-style: solid;
     border-width: thin;
+    border-top: none;
     text-align: center;
     padding: 55px;
     float: left;
@@ -136,7 +144,7 @@
 
 #C{
     float: left;
-    width: 43.2%;
+    width: calc(50% - 100px);
     height: 200px;
     background-color: rgb(220, 140, 9);
     border-style: solid;
@@ -147,10 +155,10 @@
 
 
 #D{
-    /* clear: right; */
-    float: left;
-    width: 43.2%;
-    height: 200px;
+order: 3;   
+ float: right;
+ width: calc(50% - 100px);
+ height: 200px;
     background-color: rgb(230, 140, 9);
     border-style: solid;
     border-width: thin;
@@ -161,63 +169,59 @@
 }
 
 #E{
-    clear: right ;
+    /* clear: right ; */
     float: left;
-    /* display: inline-block; */
-    width: 190px;
+    /* width: 25%; */
+    width: calc(25% - 50px);
     height: 250px;
     background-color: rgb(240, 140, 9);
     border-style: solid;
     border-width: thin;
     text-align: center;
     padding: 55px;
-    /* border-right: none; */
 }
 
 #F{
+    /* clear: right; */
     float: left;
-    width: 190px;
+    width: calc(25% - 50px);
     height: 250px;
     background-color: rgb(250, 140, 9);
     border-style: solid;
     border-width: thin;
     text-align: center;
     padding: 55px;
-    /* border-left: none; */
 
 }
 
 #G{
     float: left;
-    /* display: inline-block; */
-    width: 190px;
+    width: calc(25% - 50px);
     height: 250px;
     background-color: rgb(260, 140, 9);
     border-style: solid;
     border-width: thin;
     text-align: center;
     padding: 55px;
-    /* border-right: none; */
 }
 
 #H{
     float: left;
-    width: 190px;
+    width: calc(25% - 50px);
     height: 250px;
     background-color: rgb(270, 140, 9);
     border-style: solid;
     border-width: thin;
     text-align: center;
     padding: 55px;
-    /* border-left: none; */
 
 }
 
 #I{
     clear: right ;
-    float: left;
+    float: left    ;
     /* display: inline-block; */
-    width: 760px;
+    width: calc(100% - 200px);
     height: 150px;
     background-color: rgb(280, 140, 9);
     border-style: solid;
